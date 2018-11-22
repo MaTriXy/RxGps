@@ -1,9 +1,7 @@
 apply plugin: 'com.android.library'
-apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion project.sdk
-    buildToolsVersion project.buildTools
 
     defaultConfig {
         minSdkVersion project.minSdk
@@ -19,9 +17,9 @@ android {
 }
 
 dependencies {
-    compile 'io.reactivex.rxjava2:rxjava:2.0.7'
-    compile 'com.google.android.gms:play-services-location:11.0.4'
-    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.14'
+    compile 'com.google.android.gms:play-services-location:15.0.1'
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5'
 }
 
 
